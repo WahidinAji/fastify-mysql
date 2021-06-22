@@ -6,6 +6,7 @@ fastify.register(require('fastify-swagger'), {
     info: { title: 'fastify-mysql' },
   },
 });
+fastify.register(require('./routes/users'));
 
 const PORT = 5000;
 const start = async () => {
