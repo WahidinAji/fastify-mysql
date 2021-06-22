@@ -1,5 +1,5 @@
 {
-  "name": "fastify-mysql",
+  "name": "Rest-API-fastify-mysql",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
