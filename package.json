@@ -4,14 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start-prod": "node ./src/server.js",
-    "start-dev": "nodemon ./src/server.js"
+    "start-prod": "node ./src/server",
+    "start-dev": "nodemon ./src/server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.18.0",
+    "fastify-mysql": "^2.1.0",
     "fastify-swagger": "^4.8.0",
     "uuid": "^8.3.2"
   },
