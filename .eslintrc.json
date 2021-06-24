@@ -13,6 +13,9 @@
     },
     "rules": {
         "no-console": "off",
-        "no-undef": "off"
+        "no-undef": "off",
+        "no-use-before-define": "off",
+        "consistent-return": "off",
+        "no-shadow": "off"
     }
 }
